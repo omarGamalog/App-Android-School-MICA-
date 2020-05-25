@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MICA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Connect us</string>
+    <string name="menu_slideshow">Profile</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="_2020">جميع الحقوق محفوظة لصالح أكاديمية مصر الدولية © 2020, تم التطوير بواسطة عمر جمال .</string>
+    <string name="forgetpassword">ForgetPassword</string>
+    <string name="io">TODO</string>
+    <string name="ui">TODO</string>
+    <string name="rt">TODO</string>
+    <string name="we">phono</string>
+    <string name="qw">email</string>
+    <string name="er">Name</string>
+    <string name="tf">Name</string>
+    <string name="certified_by">Certified by</string>
+    <string name="vb">TODO</string>
+    <string name="nh">TODO</string>
+    <string name="tt">TODO</string>
+    <string name="rr">TODO</string>
+    <string name="rrr">TODO</string>
+    <string name="wlcome_to_mica">Wlcome to MICA</string>
+    <string name="eeew">Password</string>
+    <string name="login">login</string>
+    <string name="forgot_password">FORGOT_PASSWORD?</string>
+    <string name="rrw">TODO</string>
+    <string name="emailg">Emailg</string>
+    <string name="new_user_register_now">New_User_Register_Now</string>
+    <string name="dsa">TODO</string>
+    <string name="firebase_image_upload_tutorial">Firebase Image Upload Tutorial</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="enter_image_name_here">Enter Image Name Here</string>
+    <string name="upload_image_to_firebase_storage">Upload image to Firebase Storage</string>
+    <string name="gf">TODO</string>
+    <string name="wlcome_at_mica">Wlcome at MICA</string>
+    <string name="name">Name</string>
+    <string name="emailgh">Emailgh</string>
+    <string name="number">Number</string>
+    <string name="password">Password</string>
+    <string name="new_account">New Account</string>
+    <string name="rer">TODO</string>
+    <string name="sdfs">TODO</string>
+    <string name="mica2020"> MICA2020</string>
+    <string name="jjjj">سيسكو ‏ هي شركة أمريكية تعتبر الأولى عالمياً في مجال المعدات الشبكية. إستفادت من طفرة الإنترنت لتصبح إحدى أضخم الشركات</string>
+</resources>

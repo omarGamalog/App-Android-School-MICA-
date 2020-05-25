@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ou">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firebase_image_upload_tutorial"
+        android:id="@+id/textview"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ShowImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonChooseImage"
+        android:layout_below="@+id/ShowImageView"
+        android:layout_marginTop="20dp"
+        android:text="@string/choose_image"/>
+
+    <EditText
+        android:id="@+id/ImageNameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/enter_image_name_here"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonUploadImage"
+        android:layout_below="@+id/ImageNameEditText"
+        android:layout_marginTop="20dp"
+        android:text="@string/upload_image_to_firebase_storage"/>
+
+</RelativeLayout>

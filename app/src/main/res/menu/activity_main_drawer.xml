@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Connect us" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_viedo"
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="Vido" />
+    </group>
+</menu>

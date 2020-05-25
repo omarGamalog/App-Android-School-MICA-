@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "254836124029",
+    "firebase_url": "https://mica1-af3e8.firebaseio.com",
+    "project_id": "mica1-af3e8",
+    "storage_bucket": "mica1-af3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254836124029:android:2aedb07a02df4bca5fc414",
+        "android_client_info": {
+          "package_name": "com.example.opi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254836124029-169f3a2k3jqs1jhl0vd6s7up0ovk8rrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ7soWnlMJkRSkk3pDXT4lVj-AFnHaAg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254836124029-169f3a2k3jqs1jhl0vd6s7up0ovk8rrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

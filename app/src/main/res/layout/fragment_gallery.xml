@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/desing"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="134dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="267dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/cardview_light_background"
+        android:text="www.facebook.com/micaegypt"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="@color/design_default_color_on_primary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintEnd_toStartOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="24dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/world" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="247dp"
+        android:layout_height="24dp"
+        android:text="www.micaegypt.com"
+
+        android:textColor="@color/cardview_light_background"
+        android:textColorLink="@color/design_default_color_on_primary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="119dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="96dp"
+
+        android:text="01113002633"
+        android:textColor="@color/cardview_light_background"
+        android:textColorLink="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="32dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView17"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_location_on_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="172dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+
+        android:text=" العنوان: 7 شارع محمود سامى البارودى أمام مبنى محافظة الجيزة الهرم . الجيزة"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="213dp"
+        android:layout_height="29dp"
+
+        android:text="info@micaegypt.com"
+
+        android:textColor="@color/cardview_light_background"
+        android:textColorLink="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_email_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="117dp"
+        android:layout_height="22dp"
+        android:text="02 33786314"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="278dp"
+        android:layout_height="43dp"
+
+        android:layout_marginTop="396dp"
+        android:background="@drawable/round"
+
+        android:text="Certified by"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView26"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="98dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="72dp"
+        android:text="MICA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView17"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
