@@ -10,5 +10,6 @@ Content in the first column | Content in the second column
 
 
 ![GitHub Login](Login.png)
-Format: ![Alt Text](url)
+![GitHub Login](Login.png)
+
 
