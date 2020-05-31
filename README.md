@@ -9,6 +9,6 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
-![GitHub Logo](/images/Lgoin.png)
+![GitHub Logo](Lgoin.png)
 Format: ![Alt Text](url)
 
