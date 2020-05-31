@@ -9,6 +9,6 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
-![GitHub Logo](Lgoin.png)
+![GitHub Login](Login.png)
 Format: ![Alt Text](url)
 
